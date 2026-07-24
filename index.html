@@ -1,15 +1,30 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
-    <link rel="shortcut icon" href="https://www.intranet.sp.senac.br/intranet-frontend/resources/paginas/imagens/estrutura/favicon.png?v=6.11.2" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Informações dos cursos técnicos e livres | Senac Limeira</title>
-    <script type="module" crossorigin src="/senaclimeira/assets/index-nbcMAvD0.js"></script>
-    <link rel="stylesheet" crossorigin href="/senaclimeira/assets/index-B8c0auew.css">
+    <meta name="robots" content="noindex" />
+    <link rel="shortcut icon" href="https://www.intranet.sp.senac.br/intranet-frontend/resources/paginas/imagens/estrutura/favicon.png?v=6.11.2" />
+    <title>Este site mudou de endereço | Senac Limeira</title>
+    <script>
+      // Preserva rotas do HashRouter (ex.: #/informatica/ucs) ao redirecionar
+      window.location.replace('https://senaclimeira.github.io/cursos/' + window.location.hash)
+    </script>
+    <meta http-equiv="refresh" content="0; url=https://senaclimeira.github.io/cursos/" />
+    <style>
+      body { font-family: system-ui, sans-serif; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; background: #f8fafc; color: #1e293b; }
+      .box { text-align: center; padding: 2rem; }
+      a { color: #6366f1; }
+    </style>
   </head>
   <body>
-    <div id="root"></div>
+    <div class="box">
+      <h1>Este site mudou de endereço</h1>
+      <p>
+        Você está sendo redirecionado para
+        <a href="https://senaclimeira.github.io/cursos/">senaclimeira.github.io/cursos</a>.
+      </p>
+      <p>Atualize seus favoritos.</p>
+    </div>
   </body>
 </html>
